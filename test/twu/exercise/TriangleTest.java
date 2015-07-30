@@ -25,7 +25,13 @@ public class TriangleTest {
 
     @Test
     public void should_draw_a_vertical_line() throws Exception {
-        assertEquals("*\n*\n*\n", triangle.drawVerticalLine(3));
+        assertEquals("*/n*/n*/n", triangle.drawVerticalLine(3));
+
+    }
+
+    @Test
+    public void should_draw_right_triangle() throws Exception {
+        assertEquals("*/n**/n***/n", triangle.drawRightTriangle(3));
 
     }
 }

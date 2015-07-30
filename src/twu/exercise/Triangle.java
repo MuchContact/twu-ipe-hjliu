@@ -19,7 +19,18 @@ public class Triangle {
     public String drawVerticalLine(int rows) {
         StringBuffer stringBuffer = new StringBuffer();
         for (int i=0; i<rows; i++){
-            stringBuffer.append("*\n");
+            stringBuffer.append("*/n");
+        }
+        return stringBuffer.toString();
+    }
+
+    public String drawRightTriangle(int rows) {
+        StringBuffer stringBuffer = new StringBuffer();
+        for (int i=0; i<rows; i++){
+            for (int j = 1; j <=i+1; j++) {
+                stringBuffer.append("*");
+            }
+            stringBuffer.append("/n");
         }
         return stringBuffer.toString();
     }
