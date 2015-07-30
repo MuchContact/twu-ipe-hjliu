@@ -22,4 +22,10 @@ public class TriangleTest {
         assertEquals("********", triangle.drawHorizontalLine(8));
 
     }
+
+    @Test
+    public void should_draw_a_vertical_line() throws Exception {
+        assertEquals("*\n*\n*\n", triangle.drawVerticalLine(3));
+
+    }
 }

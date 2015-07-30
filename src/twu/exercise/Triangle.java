@@ -8,10 +8,18 @@ public class Triangle {
         return "*";
     }
 
-    public String drawHorizontalLine(int pixels) {
+    public String drawHorizontalLine(int columns) {
         StringBuffer stringBuffer = new StringBuffer();
-        for (int i=0; i<pixels; i++){
+        for (int i=0; i<columns; i++){
             stringBuffer.append("*");
+        }
+        return stringBuffer.toString();
+    }
+
+    public String drawVerticalLine(int rows) {
+        StringBuffer stringBuffer = new StringBuffer();
+        for (int i=0; i<rows; i++){
+            stringBuffer.append("*\n");
         }
         return stringBuffer.toString();
     }
