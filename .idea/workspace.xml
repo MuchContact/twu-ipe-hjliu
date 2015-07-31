@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f9fcc2-78ae-4139-b272-997021a23b99" name="Default" comment="add diamond exercises: include isosceles triangle, diamond, diamond with name.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/twu/exercise/FizzBuzzGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java" />
+    <list default="true" id="a8f9fcc2-78ae-4139-b272-997021a23b99" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/twu/exercise/FizzBuzzGame.java" afterPath="$PROJECT_DIR$/src/twu/exercise/FizzBuzzGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java" afterPath="$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IntroductoryProgrammingExercises.iws" />
@@ -53,8 +53,8 @@
       <file leaf-file-name="FizzBuzzGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41353384">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.86466163">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/twu/exercise/FizzBuzzGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -623,7 +623,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438347015123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="introduce FizzBuzzGameTest and test printing fizz and buzz information">
+      <created>1438348866564</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438348866564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -663,7 +669,8 @@
     <MESSAGE value="test draw vertical asterisks" />
     <MESSAGE value="test drawing right triangle" />
     <MESSAGE value="add diamond exercises: include isosceles triangle, diamond, diamond with name." />
-    <option name="LAST_COMMIT_MESSAGE" value="add diamond exercises: include isosceles triangle, diamond, diamond with name." />
+    <MESSAGE value="introduce FizzBuzzGameTest and test printing fizz and buzz information" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduce FizzBuzzGameTest and test printing fizz and buzz information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -848,15 +855,15 @@
     <entry file="file://$PROJECT_DIR$/src/twu/exercise/FizzBuzzGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41353384">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.86466163">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

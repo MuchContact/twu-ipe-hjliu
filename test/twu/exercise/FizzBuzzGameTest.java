@@ -20,4 +20,10 @@ public class FizzBuzzGameTest {
         assertEquals("Buzz", fizzBuzzGame.FizzBuzz(5));
 
     }
+
+    @Test
+    public void should_divisible_by_3_and_5_print_fizzbuzz() throws Exception {
+        FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
+        assertEquals("FizzBuzz", fizzBuzzGame.FizzBuzz(15));
+    }
 }
