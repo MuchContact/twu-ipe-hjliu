@@ -5,15 +5,13 @@ package twu.exercise;
  */
 public class FizzBuzzGame {
     public String FizzBuzz(int number) {
-        if(number%3 == 0 && number%5 == 0) {
-            return "FizzBuzz";
-        }
+        StringBuffer stringBuffer = new StringBuffer();
         if(number%3 == 0){
-            return "Fizz";
+            stringBuffer.append("Fizz");
         }
         if(number%5 == 0){
-            return "Buzz";
+            stringBuffer.append("Buzz");
         }
-        return ""+number;
+        return stringBuffer.length()>0?stringBuffer.toString():(""+number);
     }
 }

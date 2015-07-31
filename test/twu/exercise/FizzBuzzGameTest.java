@@ -9,6 +9,13 @@ import static org.junit.Assert.assertEquals;
  */
 public class FizzBuzzGameTest {
     @Test
+    public void should_1_print_1() throws Exception {
+        FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
+        assertEquals("1", fizzBuzzGame.FizzBuzz(1));
+
+    }
+
+    @Test
     public void should_divisible_by_3_print_fizz() throws Exception {
         FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
         assertEquals("Fizz", fizzBuzzGame.FizzBuzz(3));
