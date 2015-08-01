@@ -33,4 +33,12 @@ public class FizzBuzzGameTest {
         FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
         assertEquals("FizzBuzz", fizzBuzzGame.FizzBuzz(15));
     }
+
+    @Test
+    public void should_prime_factors_of_1_be_empty() throws Exception {
+        PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
+        assertEquals("[]", primeFactorCalculator.generate(1).toString());
+
+    }
+
 }
