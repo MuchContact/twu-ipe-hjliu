@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f9fcc2-78ae-4139-b272-997021a23b99" name="Default" comment="test FizzBuzzGame printing fizz, buzz concurrently">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/twu/exercise/PrimeFactorCalculator.java" />
+    <list default="true" id="a8f9fcc2-78ae-4139-b272-997021a23b99" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java" afterPath="$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/twu/exercise/PrimeFactorCalculator.java" afterPath="$PROJECT_DIR$/src/twu/exercise/PrimeFactorCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IntroductoryProgrammingExercises.iws" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="FizzBuzzGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68421054">
+            <state vertical-scroll-proportion="0.63909775">
               <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,10 +66,9 @@
         <entry file="file://$PROJECT_DIR$/src/twu/exercise/PrimeFactorCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#234#243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,33 +253,7 @@
       <recent name="twu.exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzGameTest.should_prime_factors_of_1_be_empty">
-    <configuration default="false" name="FizzBuzzGameTest.should_divisible_by_3_print_fizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twu.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IntroductoryProgrammingExercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="twu.exercise" />
-      <option name="MAIN_CLASS_NAME" value="twu.exercise.FizzBuzzGameTest" />
-      <option name="METHOD_NAME" value="should_divisible_by_3_print_fizz" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FizzBuzzGameTest.should_prime_factors_of_30_be_2_3_5">
     <configuration default="false" name="FizzBuzzGameTest.should_divisible_by_5_print_buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,6 +345,32 @@
       <option name="PACKAGE_NAME" value="twu.exercise" />
       <option name="MAIN_CLASS_NAME" value="twu.exercise.FizzBuzzGameTest" />
       <option name="METHOD_NAME" value="should_prime_factors_of_1_be_empty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzGameTest.should_prime_factors_of_30_be_2_3_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="twu.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IntroductoryProgrammingExercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="twu.exercise" />
+      <option name="MAIN_CLASS_NAME" value="twu.exercise.FizzBuzzGameTest" />
+      <option name="METHOD_NAME" value="should_prime_factors_of_30_be_2_3_5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -581,19 +580,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_3_print_fizz" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_5_print_buzz" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_1_print_1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_1_be_empty" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_5_print_buzz" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_1_print_1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_1_be_empty" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_30_be_2_3_5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_1_be_empty" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_1_print_1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_5_print_buzz" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_3_print_fizz" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_30_be_2_3_5" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_prime_factors_of_1_be_empty" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_1_print_1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGameTest.should_divisible_by_5_print_buzz" />
       </list>
     </recent_temporary>
   </component>
@@ -649,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438349080333</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add prime factor test: prime factors of 1 should be empty.">
+      <created>1438409453058</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1438409453058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,7 +704,8 @@
     <MESSAGE value="add diamond exercises: include isosceles triangle, diamond, diamond with name." />
     <MESSAGE value="introduce FizzBuzzGameTest and test printing fizz and buzz information" />
     <MESSAGE value="test FizzBuzzGame printing fizz, buzz concurrently" />
-    <option name="LAST_COMMIT_MESSAGE" value="test FizzBuzzGame printing fizz, buzz concurrently" />
+    <MESSAGE value="add prime factor test: prime factors of 1 should be empty." />
+    <option name="LAST_COMMIT_MESSAGE" value="add prime factor test: prime factors of 1 should be empty." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1063,17 +1069,16 @@
     <entry file="file://$PROJECT_DIR$/src/twu/exercise/PrimeFactorCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/twu/exercise/FizzBuzzGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68421054">
+        <state vertical-scroll-proportion="0.63909775">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />

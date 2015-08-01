@@ -41,4 +41,10 @@ public class FizzBuzzGameTest {
 
     }
 
+    @Test
+    public void should_prime_factors_of_30_be_2_3_5() throws Exception {
+        PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
+        assertEquals("[2, 3, 5]", primeFactorCalculator.generate(30).toString());
+
+    }
 }
